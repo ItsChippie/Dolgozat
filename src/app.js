@@ -1,14 +1,1 @@
-const ul= document.querySelector('#ulElem');
-var termekek = ['alma', 'körte' , 'barack' , 'szilva'];
-
-console.log ("müködik")
-
-termekek.forEach((termekek) => {
-    //console.log(termekek)
-    let li = document.createElement('li')
-    li.textContent = termekek
-    li.classList = 'list-group-item';
-    
-    ul.append (li)
-
-});
+//Miklós Rajmund, SZOFT I-2/N, 2023.05.19.
